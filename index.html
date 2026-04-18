@@ -1,69 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>This is how our story goes</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+<style>
+  body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #8ACE00; /* Iconic Green */
+  }
+
+  .brat-story-container {
+    padding: 10vh 10vw; /* Gives it that centered, roomy feel */
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .brat-text {
+    font-family: "Arial Narrow", Arial, sans-serif;
+    font-size: 8.9rem;
+    line-height: 1.1;
+    color: #000;
+    letter-spacing: -2px;
+    text-transform: lowercase;
+    word-wrap: break-word;
+    
+    /* The Low-Fi Vibe */
+    filter: blur(0.8px); 
+    opacity: 0.9; /* Makes it feel a bit more "printed" */
+  }
+
+  /* Adding a slight stretch to the text as you scroll */
+  p {
+    margin-bottom: 2rem;
+    transform: scaleX(0.95);
+    transform-origin: left;
+  }
+
+  /* Custom Scrollbar to match the vibe */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #8ACE00;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #000;
+  }
+</style>
 </head>
 <body>
 
-    <div class="container">
-        <header>
-            <div class="social-links">
-                <a href="https://www.facebook.com/rex.bolina.5" target="_blank">
-                    <i class="fab fa-facebook"></i> <span>Faceboom</span>
-                </a>
-                <a href="https://www.instagram.com/rex_snst?igsh=MXNiaDg5bHJ2cDk0Yg==" target="_blank">
-                    <i class="fab fa-instagram"></i> <span>Instagram</span>
-                </a>
-                <a href="https://github.com/Rexsnst" target="_blank">
-                    <i class="fab fa-github"></i> <span>Github</span>
-                </a>
-            </div>
-            <nav>
-                <a href="https://rexbolina.vercel.app/">home</a>
-                <a href="https://rexabout.vercel.app/">about</a>
-                <a href="https://www.facebook.com/rex.bolina.5">contact</a>
-            </nav>
-        </header>
-
-        <section class="profile-card">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                        <th>Gender</th>
-                        <th>Birthdate</th>
-                        <th>Status</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Rex Talagtag Bolina</td>
-                        <td>17</td>
-                        <td>Male</td>
-                        <td>08/07/2008</td>
-                        <td class="status-tag">single but waiting XD</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <main class="story-wrapper">
-            <h3 class="greeting">Hi, ako si rex...</h3>
-            <p class="subtitle">I live in Buluang, Bato, Camarines Sur. friendly enough to help someone by any needs(except financial, we're brome bro) imisshersomuchh</p>
-        </article>
-        </main>
-        <br>
-        <br>
-        <main class="story-wrapper">   
-                <p class="footer-note">THE ENDDD HAHAHAHAHAHAHAHAHAHA jokelang nagnonotes pako</p>
-            </article>
-        </main>
-    </div>
+<div class="brat-story-container">
+  <article class="brat-text">
+<p1>okay ka lang ba? anlungkot kaya <p1>
+    
+</p1>pag gabi sa dagat, marami kang mar-realize na kung ano-ano, like other stuffs, ewan basta ako kase evrytime na nasa dagat tas sobrang tahimik napapa relapse ako hahahah lalo na pag overnight, in my opinion lang. <br> i hope you're doing well. mag-enjoy ka, kahit ngayon lang HAHAHA make this night memorable like it should be. :> </h1>
+  </article>
+</div>
 
 </body>
 </html>
